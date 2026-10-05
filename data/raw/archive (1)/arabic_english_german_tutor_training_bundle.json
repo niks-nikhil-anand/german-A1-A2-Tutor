@@ -1,0 +1,33 @@
+{
+  "ready_for_training": true,
+  "core_artifacts": {
+    "train": "merged_arabic_english_tutor_train.jsonl",
+    "val": "merged_arabic_english_tutor_val.jsonl",
+    "weighted_train": "merged_arabic_english_tutor_train_weighted_gold3x.jsonl",
+    "eval": "arabic_english_german_tutor_eval.jsonl",
+    "merge_manifest": "merged_arabic_english_tutor_manifest.json",
+    "stats": "merged_arabic_english_tutor_stats.csv",
+    "quickstart": "arabic_english_german_tutor_training_quickstart.md"
+  },
+  "counts": {
+    "train": 2015,
+    "val": 225,
+    "weighted_train": 2445,
+    "eval_cases": 50,
+    "v3_source": 2000,
+    "gold_source": 240
+  },
+  "recommended_default": {
+    "train_file": "merged_arabic_english_tutor_train_weighted_gold3x.jsonl",
+    "val_file": "merged_arabic_english_tutor_val.jsonl",
+    "eval_file": "arabic_english_german_tutor_eval.jsonl",
+    "rationale": "Weighted training file increases the effective influence of higher-quality gold tutoring behavior examples."
+  },
+  "checks_to_run": [
+    "Can the model always emit valid JSON?",
+    "Does it ask a follow-up question in nearly every answer?",
+    "Does it avoid repeating the learner text?",
+    "Does it use clarification-first behavior on errors?",
+    "Does converse mode include specific grammar and pronunciation feedback?"
+  ]
+}

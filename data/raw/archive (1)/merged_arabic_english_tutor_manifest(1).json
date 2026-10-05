@@ -1,0 +1,39 @@
+{
+  "train_file": "merged_arabic_english_tutor_train.jsonl",
+  "val_file": "merged_arabic_english_tutor_val.jsonl",
+  "stats_file": "merged_arabic_english_tutor_stats.csv",
+  "source_files": {
+    "v3": "german_tutor_training_data_v3_arabic_english.jsonl",
+    "gold": "gold_arabic_english_tutor.jsonl"
+  },
+  "counts": {
+    "source_total": {
+      "v3": 2000,
+      "gold": 240
+    },
+    "train_total": 2015,
+    "val_total": 225,
+    "train_by_source": {
+      "v3": 1800,
+      "gold": 215
+    },
+    "val_by_source": {
+      "v3": 200,
+      "gold": 25
+    }
+  },
+  "split_strategy": "Approximate 90/10 validation split, stratified by mother_tongue, type, level, and turn count within each source.",
+  "suggested_sampling": {
+    "for_separate_sampling_streams": {
+      "v3": 1.0,
+      "gold": 3.0
+    },
+    "for_single_merged_train_file": "If you train from the merged train file only, consider duplicating the gold set 2x to 3x in the training input if validation quality on tutor behavior is weak.",
+    "reason": "Gold examples provide a cleaner signal for clarification-first tutoring behavior, while v3 provides breadth and coverage."
+  },
+  "recommended_training_notes": [
+    "Keep validation unweighted so behavior regressions are easier to see.",
+    "Monitor JSON validity, question-asking behavior, and non-repetition of learner text during eval.",
+    "If the model becomes too corrective, increase the effective gold ratio before increasing total steps."
+  ]
+}

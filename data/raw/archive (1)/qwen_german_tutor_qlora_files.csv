@@ -1,0 +1,15 @@
+kind,filename
+train_script,train_qlora_german_tutor.py
+eval_script,eval_german_tutor.py
+infer_script,infer_german_tutor.py
+merge_script,merge_lora_german_tutor.py
+config,qlora_config_german_tutor.json
+requirements,requirements_german_tutor_qlora.txt
+linux_launcher,run_train_linux.sh
+powershell_launcher,run_train_windows.ps1
+dockerfile,Dockerfile.qwen_german_tutor_qlora
+docker_launcher,run_train_docker.sh
+readme,README_qwen_german_tutor_qlora.md
+train_data,train.jsonl
+val_data,val.jsonl
+eval_data,eval.jsonl

@@ -1,0 +1,2712 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[BOS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[EOS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "[UNK]",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[PAD]": 0,
+      "[UNK]": 1,
+      "[BOS]": 2,
+      "[EOS]": 3,
+      ",": 4,
+      "-": 5,
+      ".": 6,
+      "?": 7,
+      "A": 8,
+      "B": 9,
+      "C": 10,
+      "D": 11,
+      "E": 12,
+      "F": 13,
+      "G": 14,
+      "H": 15,
+      "I": 16,
+      "J": 17,
+      "K": 18,
+      "L": 19,
+      "M": 20,
+      "N": 21,
+      "O": 22,
+      "P": 23,
+      "R": 24,
+      "S": 25,
+      "T": 26,
+      "U": 27,
+      "W": 28,
+      "Z": 29,
+      "a": 30,
+      "b": 31,
+      "c": 32,
+      "d": 33,
+      "e": 34,
+      "f": 35,
+      "g": 36,
+      "h": 37,
+      "i": 38,
+      "j": 39,
+      "k": 40,
+      "l": 41,
+      "m": 42,
+      "n": 43,
+      "o": 44,
+      "p": 45,
+      "r": 46,
+      "s": 47,
+      "t": 48,
+      "u": 49,
+      "v": 50,
+      "w": 51,
+      "y": 52,
+      "z": 53,
+      "ß": 54,
+      "ä": 55,
+      "é": 56,
+      "ö": 57,
+      "ü": 58,
+      "ch": 59,
+      "in": 60,
+      "en": 61,
+      "te": 62,
+      "es": 63,
+      "ein": 64,
+      "nd": 65,
+      "und": 66,
+      "st": 67,
+      "er": 68,
+      "ich": 69,
+      "ag": 70,
+      "chen": 71,
+      "ar": 72,
+      "Mein": 73,
+      "ei": 74,
+      "ter": 75,
+      "ma": 76,
+      "am": 77,
+      "Am": 78,
+      "se": 79,
+      "on": 80,
+      "ist": 81,
+      "fe": 82,
+      "as": 83,
+      "rg": 84,
+      "ester": 85,
+      "di": 86,
+      "tag": 87,
+      "stag": 88,
+      "Meine": 89,
+      "Ich": 90,
+      "au": 91,
+      "bei": 92,
+      "tet": 93,
+      "arbei": 94,
+      "arbeitet": 95,
+      "eu": 96,
+      "enstag": 97,
+      "estern": 98,
+      "das": 99,
+      "ontag": 100,
+      "org": 101,
+      "orgen": 102,
+      "eute": 103,
+      "che": 104,
+      "af": 105,
+      "ke": 106,
+      "re": 107,
+      "mö": 108,
+      "tr": 109,
+      "chte": 110,
+      "möchte": 111,
+      "bes": 112,
+      "uchen": 113,
+      "machen": 114,
+      "besuchen": 115,
+      "esse": 116,
+      "ern": 117,
+      "kau": 118,
+      "kaufe": 119,
+      "it": 120,
+      "trin": 121,
+      "trinke": 122,
+      "die": 123,
+      "mache": 124,
+      "den": 125,
+      "gern": 126,
+      "an": 127,
+      "le": 128,
+      "ark": 129,
+      "de": 130,
+      "Di": 131,
+      "Dienstag": 132,
+      "sch": 133,
+      "morgen": 134,
+      "heute": 135,
+      "gestern": 136,
+      "Montag": 137,
+      "och": 138,
+      "tw": 139,
+      "ittw": 140,
+      "ittwoch": 141,
+      "ko": 142,
+      "fre": 143,
+      "ge": 144,
+      "freund": 145,
+      "il": 146,
+      "Bü": 147,
+      "Gestern": 148,
+      "ln": 149,
+      "montag": 150,
+      "lle": 151,
+      "kolle": 152,
+      "ro": 153,
+      "ach": 154,
+      "Morgen": 155,
+      "hr": 156,
+      "zi": 157,
+      "men": 158,
+      "Sch": 159,
+      "dienstag": 160,
+      "bar": 161,
+      "nach": 162,
+      "nachbar": 163,
+      "Heute": 164,
+      "al": 165,
+      "im": 166,
+      "nchen": 167,
+      "eine": 168,
+      "tter": 169,
+      "Su": 170,
+      "Sup": 171,
+      "mittwoch": 172,
+      "arkt": 173,
+      "Mu": 174,
+      "ran": 175,
+      "Park": 176,
+      "Kaf": 177,
+      "bu": 178,
+      "fee": 179,
+      "Kaffee": 180,
+      "Te": 181,
+      "Tee": 182,
+      "einen": 183,
+      "ni": 184,
+      "si": 185,
+      "Bre": 186,
+      "Bremen": 187,
+      "Uni": 188,
+      "sit": 189,
+      "ver": 190,
+      "ät": 191,
+      "Univer": 192,
+      "sität": 193,
+      "Universität": 194,
+      "Mil": 195,
+      "Milch": 196,
+      "Ham": 197,
+      "Rei": 198,
+      "burg": 199,
+      "Hamburg": 200,
+      "Reis": 201,
+      "Mü": 202,
+      "Büro": 203,
+      "München": 204,
+      "schw": 205,
+      "Saf": 206,
+      "Was": 207,
+      "freundin": 208,
+      "Saft": 209,
+      "ru": 210,
+      "Lei": 211,
+      "pzi": 212,
+      "Leipzi": 213,
+      "Leipzig": 214,
+      "Ber": 215,
+      "Lim": 216,
+      "ade": 217,
+      "fa": 218,
+      "lin": 219,
+      "ser": 220,
+      "onade": 221,
+      "Wasser": 222,
+      "Berlin": 223,
+      "Limonade": 224,
+      "Kö": 225,
+      "ule": 226,
+      "Schule": 227,
+      "schwester": 228,
+      "Köln": 229,
+      "to": 230,
+      "Caf": 231,
+      "gin": 232,
+      "kollegin": 233,
+      "Café": 234,
+      "der": 235,
+      "bru": 236,
+      "fr": 237,
+      "eitag": 238,
+      "bruder": 239,
+      "freitag": 240,
+      "markt": 241,
+      "ermarkt": 242,
+      "Supermarkt": 243,
+      "ater": 244,
+      "vater": 245,
+      "nachbarin": 246,
+      "ner": 247,
+      "fin": 248,
+      "he": 249,
+      "mu": 250,
+      "sehr": 251,
+      "Musi": 252,
+      "finde": 253,
+      "mutter": 254,
+      "Musik": 255,
+      "don": 256,
+      "nerstag": 257,
+      "donnerstag": 258,
+      "Sp": 259,
+      "li": 260,
+      "me": 261,
+      "Ein": 262,
+      "ad": 263,
+      "kollege": 264,
+      "Ban": 265,
+      "cher": 266,
+      "Bücher": 267,
+      "Rad": 268,
+      "hren": 269,
+      "fahren": 270,
+      "Radfahren": 271,
+      "Ko": 272,
+      "Kochen": 273,
+      "Mittwoch": 274,
+      "Sal": 275,
+      "at": 276,
+      "azi": 277,
+      "hen": 278,
+      "enge": 279,
+      "erenge": 280,
+      "Reisen": 281,
+      "Spazi": 282,
+      "Salat": 283,
+      "erengehen": 284,
+      "Spazierengehen": 285,
+      "Fu": 286,
+      "bal": 287,
+      "ßbal": 288,
+      "Fußbal": 289,
+      "Fußball": 290,
+      "Fil": 291,
+      "Filme": 292,
+      "Bro": 293,
+      "Brot": 294,
+      "We": 295,
+      "ie": 296,
+      "ir": 297,
+      "Wetter": 298,
+      "Fo": 299,
+      "Po": 300,
+      "gr": 301,
+      "afie": 302,
+      "togr": 303,
+      "Fotogr": 304,
+      "Post": 305,
+      "Fotografie": 306,
+      "wim": 307,
+      "Schwim": 308,
+      "Schwimmen": 309,
+      "ah": 310,
+      "Ge": 311,
+      "mü": 312,
+      "ahn": 313,
+      "Gemü": 314,
+      "Gemüse": 315,
+      "In": 316,
+      "du": 317,
+      "sehe": 318,
+      "pe": 319,
+      "Suppe": 320,
+      "isch": 321,
+      "um": 322,
+      "seum": 323,
+      "Museum": 324,
+      "Ap": 325,
+      "Hä": 326,
+      "Nu": 327,
+      "Oran": 328,
+      "hnchen": 329,
+      "ken": 330,
+      "fel": 331,
+      "deln": 332,
+      "Apfel": 333,
+      "Hähnchen": 334,
+      "Nudeln": 335,
+      "Orange": 336,
+      "Fisch": 337,
+      "Kä": 338,
+      "Kran": 339,
+      "Markt": 340,
+      "Res": 341,
+      "hau": 342,
+      "tau": 343,
+      "rant": 344,
+      "kenhau": 345,
+      "Käse": 346,
+      "Krankenhau": 347,
+      "Restau": 348,
+      "Krankenhaus": 349,
+      "Restaurant": 350,
+      "ng": 351,
+      "ane": 352,
+      "Banane": 353,
+      "Bi": 354,
+      "Bahn": 355,
+      "Kar": 356,
+      "To": 357,
+      "bli": 358,
+      "ot": 359,
+      "ten": 360,
+      "maten": 361,
+      "hek": 362,
+      "Bibli": 363,
+      "Tomaten": 364,
+      "othek": 365,
+      "Bibliothek": 366,
+      "ffe": 367,
+      "lern": 368,
+      "toffe": 369,
+      "Kartoffe": 370,
+      "lerne": 371,
+      "Kartoffeln": 372,
+      "Pi": 373,
+      "za": 374,
+      "zza": 375,
+      "Einen": 376,
+      "Pizza": 377,
+      "asche": 378,
+      "Bu": 379,
+      "Bank": 380,
+      "ho": 381,
+      "Bahnho": 382,
+      "Bahnhof": 383,
+      "ne": 384,
+      "gen": 385,
+      "ess": 386,
+      "schir": 387,
+      "sie": 388,
+      "genschir": 389,
+      "genschirm": 390,
+      "mp": 391,
+      "mit": 392,
+      "omp": 393,
+      "uter": 394,
+      "omputer": 395,
+      "hre": 396,
+      "ig": 397,
+      "dem": 398,
+      "fahre": 399,
+      "lig": 400,
+      "Buch": 401,
+      "and": 402,
+      "Eine": 403,
+      "andy": 404,
+      "lan": 405,
+      "tu": 406,
+      "wir": 407,
+      "eitu": 408,
+      "lang": 409,
+      "eitung": 410,
+      "Deu": 411,
+      "Wen": 412,
+      "ft": 413,
+      "hme": 414,
+      "ift": 415,
+      "lasche": 416,
+      "tsch": 417,
+      "nehme": 418,
+      "Deutsch": 419,
+      "Wenn": 420,
+      "Re": 421,
+      "alt": 422,
+      "essen": 423,
+      "Regenschirm": 424,
+      "Ab": 425,
+      "Computer": 426,
+      "Eng": 427,
+      "Flasche": 428,
+      "Handy": 429,
+      "dessen": 430,
+      "lü": 431,
+      "sse": 432,
+      "endessen": 433,
+      "koche": 434,
+      "lisch": 435,
+      "Abendessen": 436,
+      "Englisch": 437,
+      "lüsse": 438,
+      "lüssel": 439,
+      "Ob": 440,
+      "hö": 441,
+      "or": 442,
+      "Spor": 443,
+      "Obst": 444,
+      "Sport": 445,
+      "Zeitung": 446,
+      "höre": 447,
+      "ac": 448,
+      "hei": 449,
+      "les": 450,
+      "wei": 451,
+      "buch": 452,
+      "langwei": 453,
+      "acke": 454,
+      "heiß": 455,
+      "lese": 456,
+      "langweilig": 457,
+      "Zu": 458,
+      "bil": 459,
+      "Zug": 460,
+      "billig": 461,
+      "ber": 462,
+      "fach": 463,
+      "kl": 464,
+      "kalt": 465,
+      "lich": 466,
+      "sau": 467,
+      "einfach": 468,
+      "stift": 469,
+      "freundlich": 470,
+      "Schlüssel": 471,
+      "klein": 472,
+      "sauber": 473,
+      "Du": 474,
+      "St": 475,
+      "Str": 476,
+      "aß": 477,
+      "be": 478,
+      "bahn": 479,
+      "computer": 480,
+      "hig": 481,
+      "ll": 482,
+      "neu": 483,
+      "sam": 484,
+      "tig": 485,
+      "wich": 486,
+      "inter": 487,
+      "enbahn": 488,
+      "regenschirm": 489,
+      "ant": 490,
+      "schne": 491,
+      "ruhig": 492,
+      "essant": 493,
+      "langsam": 494,
+      "Stift": 495,
+      "Straß": 496,
+      "wichtig": 497,
+      "interessant": 498,
+      "schnell": 499,
+      "Straßenbahn": 500,
+      "Jacke": 501,
+      "hl": 502,
+      "kt": 503,
+      "kü": 504,
+      "lkt": 505,
+      "tasche": 506,
+      "wö": 507,
+      "zeitung": 508,
+      "ön": 509,
+      "schön": 510,
+      "Bus": 511,
+      "bewö": 512,
+      "kühl": 513,
+      "bewölkt": 514,
+      "Tasche": 515,
+      "Wir": 516,
+      "handy": 517,
+      "ier": 518,
+      "lau": 519,
+      "uer": 520,
+      "war": 521,
+      "teuer": 522,
+      "schlüssel": 523,
+      "schwier": 524,
+      "laut": 525,
+      "warm": 526,
+      "schwierig": 527,
+      "Au": 528,
+      "Fa": 529,
+      "gro": 530,
+      "jacke": 531,
+      "rad": 532,
+      "son": 533,
+      "hrrad": 534,
+      "nig": 535,
+      "Auto": 536,
+      "Fahrrad": 537,
+      "groß": 538,
+      "sonnig": 539,
+      "Sie": 540,
+      "Er": 541,
+      "flasche": 542,
+      "gner": 543,
+      "win": 544,
+      "dig": 545,
+      "regner": 546,
+      "möchtest": 547,
+      "ann": 548,
+      "windig": 549,
+      "regnerisch": 550,
+      "Kann": 551,
+      "Wie": 552,
+      "Wann": 553,
+      "ast": 554,
+      "fä": 555,
+      "hast": 556,
+      "len": 557,
+      "lche": 558,
+      "nä": 559,
+      "rst": 560,
+      "ste": 561,
+      "zah": 562,
+      "cht": 563,
+      "chste": 564,
+      "macht": 565,
+      "trinken": 566,
+      "gemacht": 567,
+      "hrt": 568,
+      "Welche": 569,
+      "Karte": 570,
+      "hörst": 571,
+      "heißt": 572,
+      "bezah": 573,
+      "fährt": 574,
+      "nächste": 575,
+      "bezahlen": 576
+    },
+    "merges": [
+      [
+        "c",
+        "h"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "e",
+        "in"
+      ],
+      [
+        "n",
+        "d"
+      ],
+      [
+        "u",
+        "nd"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "i",
+        "ch"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "ch",
+        "en"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "M",
+        "ein"
+      ],
+      [
+        "e",
+        "i"
+      ],
+      [
+        "te",
+        "r"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "A",
+        "m"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "i",
+        "st"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "r",
+        "g"
+      ],
+      [
+        "es",
+        "ter"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "t",
+        "ag"
+      ],
+      [
+        "st",
+        "ag"
+      ],
+      [
+        "Mein",
+        "e"
+      ],
+      [
+        "I",
+        "ch"
+      ],
+      [
+        "a",
+        "u"
+      ],
+      [
+        "b",
+        "ei"
+      ],
+      [
+        "te",
+        "t"
+      ],
+      [
+        "ar",
+        "bei"
+      ],
+      [
+        "arbei",
+        "tet"
+      ],
+      [
+        "e",
+        "u"
+      ],
+      [
+        "en",
+        "stag"
+      ],
+      [
+        "ester",
+        "n"
+      ],
+      [
+        "d",
+        "as"
+      ],
+      [
+        "on",
+        "tag"
+      ],
+      [
+        "o",
+        "rg"
+      ],
+      [
+        "org",
+        "en"
+      ],
+      [
+        "eu",
+        "te"
+      ],
+      [
+        "ch",
+        "e"
+      ],
+      [
+        "a",
+        "f"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "m",
+        "ö"
+      ],
+      [
+        "t",
+        "r"
+      ],
+      [
+        "ch",
+        "te"
+      ],
+      [
+        "mö",
+        "chte"
+      ],
+      [
+        "b",
+        "es"
+      ],
+      [
+        "u",
+        "chen"
+      ],
+      [
+        "ma",
+        "chen"
+      ],
+      [
+        "bes",
+        "uchen"
+      ],
+      [
+        "es",
+        "se"
+      ],
+      [
+        "er",
+        "n"
+      ],
+      [
+        "k",
+        "au"
+      ],
+      [
+        "kau",
+        "fe"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "tr",
+        "in"
+      ],
+      [
+        "trin",
+        "ke"
+      ],
+      [
+        "di",
+        "e"
+      ],
+      [
+        "ma",
+        "che"
+      ],
+      [
+        "d",
+        "en"
+      ],
+      [
+        "g",
+        "ern"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "ar",
+        "k"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "D",
+        "i"
+      ],
+      [
+        "Di",
+        "enstag"
+      ],
+      [
+        "s",
+        "ch"
+      ],
+      [
+        "m",
+        "orgen"
+      ],
+      [
+        "h",
+        "eute"
+      ],
+      [
+        "g",
+        "estern"
+      ],
+      [
+        "M",
+        "ontag"
+      ],
+      [
+        "o",
+        "ch"
+      ],
+      [
+        "t",
+        "w"
+      ],
+      [
+        "it",
+        "tw"
+      ],
+      [
+        "ittw",
+        "och"
+      ],
+      [
+        "k",
+        "o"
+      ],
+      [
+        "f",
+        "re"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "fre",
+        "und"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "B",
+        "ü"
+      ],
+      [
+        "G",
+        "estern"
+      ],
+      [
+        "l",
+        "n"
+      ],
+      [
+        "m",
+        "ontag"
+      ],
+      [
+        "l",
+        "le"
+      ],
+      [
+        "ko",
+        "lle"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        "a",
+        "ch"
+      ],
+      [
+        "M",
+        "orgen"
+      ],
+      [
+        "h",
+        "r"
+      ],
+      [
+        "z",
+        "i"
+      ],
+      [
+        "m",
+        "en"
+      ],
+      [
+        "S",
+        "ch"
+      ],
+      [
+        "di",
+        "enstag"
+      ],
+      [
+        "b",
+        "ar"
+      ],
+      [
+        "n",
+        "ach"
+      ],
+      [
+        "nach",
+        "bar"
+      ],
+      [
+        "H",
+        "eute"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "n",
+        "chen"
+      ],
+      [
+        "ein",
+        "e"
+      ],
+      [
+        "t",
+        "ter"
+      ],
+      [
+        "S",
+        "u"
+      ],
+      [
+        "Su",
+        "p"
+      ],
+      [
+        "m",
+        "ittwoch"
+      ],
+      [
+        "ark",
+        "t"
+      ],
+      [
+        "M",
+        "u"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "P",
+        "ark"
+      ],
+      [
+        "K",
+        "af"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "fe",
+        "e"
+      ],
+      [
+        "Kaf",
+        "fee"
+      ],
+      [
+        "T",
+        "e"
+      ],
+      [
+        "Te",
+        "e"
+      ],
+      [
+        "ein",
+        "en"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "B",
+        "re"
+      ],
+      [
+        "Bre",
+        "men"
+      ],
+      [
+        "U",
+        "ni"
+      ],
+      [
+        "s",
+        "it"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "ä",
+        "t"
+      ],
+      [
+        "Uni",
+        "ver"
+      ],
+      [
+        "sit",
+        "ät"
+      ],
+      [
+        "Univer",
+        "sität"
+      ],
+      [
+        "M",
+        "il"
+      ],
+      [
+        "Mil",
+        "ch"
+      ],
+      [
+        "H",
+        "am"
+      ],
+      [
+        "R",
+        "ei"
+      ],
+      [
+        "bu",
+        "rg"
+      ],
+      [
+        "Ham",
+        "burg"
+      ],
+      [
+        "Rei",
+        "s"
+      ],
+      [
+        "M",
+        "ü"
+      ],
+      [
+        "Bü",
+        "ro"
+      ],
+      [
+        "Mü",
+        "nchen"
+      ],
+      [
+        "sch",
+        "w"
+      ],
+      [
+        "S",
+        "af"
+      ],
+      [
+        "W",
+        "as"
+      ],
+      [
+        "freund",
+        "in"
+      ],
+      [
+        "Saf",
+        "t"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "L",
+        "ei"
+      ],
+      [
+        "p",
+        "zi"
+      ],
+      [
+        "Lei",
+        "pzi"
+      ],
+      [
+        "Leipzi",
+        "g"
+      ],
+      [
+        "B",
+        "er"
+      ],
+      [
+        "L",
+        "im"
+      ],
+      [
+        "a",
+        "de"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "s",
+        "er"
+      ],
+      [
+        "on",
+        "ade"
+      ],
+      [
+        "Was",
+        "ser"
+      ],
+      [
+        "Ber",
+        "lin"
+      ],
+      [
+        "Lim",
+        "onade"
+      ],
+      [
+        "K",
+        "ö"
+      ],
+      [
+        "u",
+        "le"
+      ],
+      [
+        "Sch",
+        "ule"
+      ],
+      [
+        "schw",
+        "ester"
+      ],
+      [
+        "Kö",
+        "ln"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "C",
+        "af"
+      ],
+      [
+        "g",
+        "in"
+      ],
+      [
+        "kolle",
+        "gin"
+      ],
+      [
+        "Caf",
+        "é"
+      ],
+      [
+        "d",
+        "er"
+      ],
+      [
+        "b",
+        "ru"
+      ],
+      [
+        "f",
+        "r"
+      ],
+      [
+        "ei",
+        "tag"
+      ],
+      [
+        "bru",
+        "der"
+      ],
+      [
+        "fr",
+        "eitag"
+      ],
+      [
+        "m",
+        "arkt"
+      ],
+      [
+        "er",
+        "markt"
+      ],
+      [
+        "Sup",
+        "ermarkt"
+      ],
+      [
+        "a",
+        "ter"
+      ],
+      [
+        "v",
+        "ater"
+      ],
+      [
+        "nachbar",
+        "in"
+      ],
+      [
+        "n",
+        "er"
+      ],
+      [
+        "f",
+        "in"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "se",
+        "hr"
+      ],
+      [
+        "Mu",
+        "si"
+      ],
+      [
+        "fin",
+        "de"
+      ],
+      [
+        "mu",
+        "tter"
+      ],
+      [
+        "Musi",
+        "k"
+      ],
+      [
+        "d",
+        "on"
+      ],
+      [
+        "ner",
+        "stag"
+      ],
+      [
+        "don",
+        "nerstag"
+      ],
+      [
+        "S",
+        "p"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "E",
+        "in"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "kolle",
+        "ge"
+      ],
+      [
+        "B",
+        "an"
+      ],
+      [
+        "ch",
+        "er"
+      ],
+      [
+        "Bü",
+        "cher"
+      ],
+      [
+        "R",
+        "ad"
+      ],
+      [
+        "hr",
+        "en"
+      ],
+      [
+        "fa",
+        "hren"
+      ],
+      [
+        "Rad",
+        "fahren"
+      ],
+      [
+        "K",
+        "o"
+      ],
+      [
+        "Ko",
+        "chen"
+      ],
+      [
+        "M",
+        "ittwoch"
+      ],
+      [
+        "S",
+        "al"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "zi"
+      ],
+      [
+        "h",
+        "en"
+      ],
+      [
+        "en",
+        "ge"
+      ],
+      [
+        "er",
+        "enge"
+      ],
+      [
+        "Reis",
+        "en"
+      ],
+      [
+        "Sp",
+        "azi"
+      ],
+      [
+        "Sal",
+        "at"
+      ],
+      [
+        "erenge",
+        "hen"
+      ],
+      [
+        "Spazi",
+        "erengehen"
+      ],
+      [
+        "F",
+        "u"
+      ],
+      [
+        "b",
+        "al"
+      ],
+      [
+        "ß",
+        "bal"
+      ],
+      [
+        "Fu",
+        "ßbal"
+      ],
+      [
+        "Fußbal",
+        "l"
+      ],
+      [
+        "F",
+        "il"
+      ],
+      [
+        "Fil",
+        "me"
+      ],
+      [
+        "B",
+        "ro"
+      ],
+      [
+        "Bro",
+        "t"
+      ],
+      [
+        "W",
+        "e"
+      ],
+      [
+        "i",
+        "e"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "We",
+        "tter"
+      ],
+      [
+        "F",
+        "o"
+      ],
+      [
+        "P",
+        "o"
+      ],
+      [
+        "g",
+        "r"
+      ],
+      [
+        "af",
+        "ie"
+      ],
+      [
+        "to",
+        "gr"
+      ],
+      [
+        "Fo",
+        "togr"
+      ],
+      [
+        "Po",
+        "st"
+      ],
+      [
+        "Fotogr",
+        "afie"
+      ],
+      [
+        "w",
+        "im"
+      ],
+      [
+        "Sch",
+        "wim"
+      ],
+      [
+        "Schwim",
+        "men"
+      ],
+      [
+        "a",
+        "h"
+      ],
+      [
+        "G",
+        "e"
+      ],
+      [
+        "m",
+        "ü"
+      ],
+      [
+        "ah",
+        "n"
+      ],
+      [
+        "Ge",
+        "mü"
+      ],
+      [
+        "Gemü",
+        "se"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "se",
+        "he"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "Sup",
+        "pe"
+      ],
+      [
+        "i",
+        "sch"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        "se",
+        "um"
+      ],
+      [
+        "Mu",
+        "seum"
+      ],
+      [
+        "A",
+        "p"
+      ],
+      [
+        "H",
+        "ä"
+      ],
+      [
+        "N",
+        "u"
+      ],
+      [
+        "O",
+        "ran"
+      ],
+      [
+        "h",
+        "nchen"
+      ],
+      [
+        "k",
+        "en"
+      ],
+      [
+        "fe",
+        "l"
+      ],
+      [
+        "de",
+        "ln"
+      ],
+      [
+        "Ap",
+        "fel"
+      ],
+      [
+        "Hä",
+        "hnchen"
+      ],
+      [
+        "Nu",
+        "deln"
+      ],
+      [
+        "Oran",
+        "ge"
+      ],
+      [
+        "F",
+        "isch"
+      ],
+      [
+        "K",
+        "ä"
+      ],
+      [
+        "K",
+        "ran"
+      ],
+      [
+        "M",
+        "arkt"
+      ],
+      [
+        "R",
+        "es"
+      ],
+      [
+        "h",
+        "au"
+      ],
+      [
+        "t",
+        "au"
+      ],
+      [
+        "ran",
+        "t"
+      ],
+      [
+        "ken",
+        "hau"
+      ],
+      [
+        "Kä",
+        "se"
+      ],
+      [
+        "Kran",
+        "kenhau"
+      ],
+      [
+        "Res",
+        "tau"
+      ],
+      [
+        "Krankenhau",
+        "s"
+      ],
+      [
+        "Restau",
+        "rant"
+      ],
+      [
+        "n",
+        "g"
+      ],
+      [
+        "an",
+        "e"
+      ],
+      [
+        "Ban",
+        "ane"
+      ],
+      [
+        "B",
+        "i"
+      ],
+      [
+        "B",
+        "ahn"
+      ],
+      [
+        "K",
+        "ar"
+      ],
+      [
+        "T",
+        "o"
+      ],
+      [
+        "b",
+        "li"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "t",
+        "en"
+      ],
+      [
+        "ma",
+        "ten"
+      ],
+      [
+        "he",
+        "k"
+      ],
+      [
+        "Bi",
+        "bli"
+      ],
+      [
+        "To",
+        "maten"
+      ],
+      [
+        "ot",
+        "hek"
+      ],
+      [
+        "Bibli",
+        "othek"
+      ],
+      [
+        "f",
+        "fe"
+      ],
+      [
+        "l",
+        "ern"
+      ],
+      [
+        "to",
+        "ffe"
+      ],
+      [
+        "Kar",
+        "toffe"
+      ],
+      [
+        "lern",
+        "e"
+      ],
+      [
+        "Kartoffe",
+        "ln"
+      ],
+      [
+        "P",
+        "i"
+      ],
+      [
+        "z",
+        "a"
+      ],
+      [
+        "z",
+        "za"
+      ],
+      [
+        "Ein",
+        "en"
+      ],
+      [
+        "Pi",
+        "zza"
+      ],
+      [
+        "as",
+        "che"
+      ],
+      [
+        "B",
+        "u"
+      ],
+      [
+        "Ban",
+        "k"
+      ],
+      [
+        "h",
+        "o"
+      ],
+      [
+        "Bahn",
+        "ho"
+      ],
+      [
+        "Bahnho",
+        "f"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "g",
+        "en"
+      ],
+      [
+        "es",
+        "s"
+      ],
+      [
+        "sch",
+        "ir"
+      ],
+      [
+        "si",
+        "e"
+      ],
+      [
+        "gen",
+        "schir"
+      ],
+      [
+        "genschir",
+        "m"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "m",
+        "it"
+      ],
+      [
+        "o",
+        "mp"
+      ],
+      [
+        "u",
+        "ter"
+      ],
+      [
+        "omp",
+        "uter"
+      ],
+      [
+        "h",
+        "re"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "de",
+        "m"
+      ],
+      [
+        "fa",
+        "hre"
+      ],
+      [
+        "li",
+        "g"
+      ],
+      [
+        "Bu",
+        "ch"
+      ],
+      [
+        "a",
+        "nd"
+      ],
+      [
+        "Ein",
+        "e"
+      ],
+      [
+        "and",
+        "y"
+      ],
+      [
+        "l",
+        "an"
+      ],
+      [
+        "t",
+        "u"
+      ],
+      [
+        "w",
+        "ir"
+      ],
+      [
+        "ei",
+        "tu"
+      ],
+      [
+        "lan",
+        "g"
+      ],
+      [
+        "eitu",
+        "ng"
+      ],
+      [
+        "D",
+        "eu"
+      ],
+      [
+        "W",
+        "en"
+      ],
+      [
+        "f",
+        "t"
+      ],
+      [
+        "h",
+        "me"
+      ],
+      [
+        "i",
+        "ft"
+      ],
+      [
+        "l",
+        "asche"
+      ],
+      [
+        "t",
+        "sch"
+      ],
+      [
+        "ne",
+        "hme"
+      ],
+      [
+        "Deu",
+        "tsch"
+      ],
+      [
+        "Wen",
+        "n"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "al",
+        "t"
+      ],
+      [
+        "ess",
+        "en"
+      ],
+      [
+        "Re",
+        "genschirm"
+      ],
+      [
+        "A",
+        "b"
+      ],
+      [
+        "C",
+        "omputer"
+      ],
+      [
+        "E",
+        "ng"
+      ],
+      [
+        "F",
+        "lasche"
+      ],
+      [
+        "H",
+        "andy"
+      ],
+      [
+        "d",
+        "essen"
+      ],
+      [
+        "l",
+        "ü"
+      ],
+      [
+        "s",
+        "se"
+      ],
+      [
+        "en",
+        "dessen"
+      ],
+      [
+        "ko",
+        "che"
+      ],
+      [
+        "li",
+        "sch"
+      ],
+      [
+        "Ab",
+        "endessen"
+      ],
+      [
+        "Eng",
+        "lisch"
+      ],
+      [
+        "lü",
+        "sse"
+      ],
+      [
+        "lüsse",
+        "l"
+      ],
+      [
+        "O",
+        "b"
+      ],
+      [
+        "h",
+        "ö"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "Sp",
+        "or"
+      ],
+      [
+        "Ob",
+        "st"
+      ],
+      [
+        "Spor",
+        "t"
+      ],
+      [
+        "Z",
+        "eitung"
+      ],
+      [
+        "hö",
+        "re"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "h",
+        "ei"
+      ],
+      [
+        "l",
+        "es"
+      ],
+      [
+        "w",
+        "ei"
+      ],
+      [
+        "bu",
+        "ch"
+      ],
+      [
+        "lang",
+        "wei"
+      ],
+      [
+        "ac",
+        "ke"
+      ],
+      [
+        "hei",
+        "ß"
+      ],
+      [
+        "les",
+        "e"
+      ],
+      [
+        "langwei",
+        "lig"
+      ],
+      [
+        "Z",
+        "u"
+      ],
+      [
+        "b",
+        "il"
+      ],
+      [
+        "Zu",
+        "g"
+      ],
+      [
+        "bil",
+        "lig"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "f",
+        "ach"
+      ],
+      [
+        "k",
+        "l"
+      ],
+      [
+        "k",
+        "alt"
+      ],
+      [
+        "l",
+        "ich"
+      ],
+      [
+        "s",
+        "au"
+      ],
+      [
+        "ein",
+        "fach"
+      ],
+      [
+        "st",
+        "ift"
+      ],
+      [
+        "freund",
+        "lich"
+      ],
+      [
+        "Sch",
+        "lüssel"
+      ],
+      [
+        "kl",
+        "ein"
+      ],
+      [
+        "sau",
+        "ber"
+      ],
+      [
+        "D",
+        "u"
+      ],
+      [
+        "S",
+        "t"
+      ],
+      [
+        "S",
+        "tr"
+      ],
+      [
+        "a",
+        "ß"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "b",
+        "ahn"
+      ],
+      [
+        "c",
+        "omputer"
+      ],
+      [
+        "h",
+        "ig"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "n",
+        "eu"
+      ],
+      [
+        "s",
+        "am"
+      ],
+      [
+        "t",
+        "ig"
+      ],
+      [
+        "w",
+        "ich"
+      ],
+      [
+        "in",
+        "ter"
+      ],
+      [
+        "en",
+        "bahn"
+      ],
+      [
+        "re",
+        "genschirm"
+      ],
+      [
+        "an",
+        "t"
+      ],
+      [
+        "sch",
+        "ne"
+      ],
+      [
+        "ru",
+        "hig"
+      ],
+      [
+        "ess",
+        "ant"
+      ],
+      [
+        "lang",
+        "sam"
+      ],
+      [
+        "St",
+        "ift"
+      ],
+      [
+        "Str",
+        "aß"
+      ],
+      [
+        "wich",
+        "tig"
+      ],
+      [
+        "inter",
+        "essant"
+      ],
+      [
+        "schne",
+        "ll"
+      ],
+      [
+        "Straß",
+        "enbahn"
+      ],
+      [
+        "J",
+        "acke"
+      ],
+      [
+        "h",
+        "l"
+      ],
+      [
+        "k",
+        "t"
+      ],
+      [
+        "k",
+        "ü"
+      ],
+      [
+        "l",
+        "kt"
+      ],
+      [
+        "t",
+        "asche"
+      ],
+      [
+        "w",
+        "ö"
+      ],
+      [
+        "z",
+        "eitung"
+      ],
+      [
+        "ö",
+        "n"
+      ],
+      [
+        "sch",
+        "ön"
+      ],
+      [
+        "Bu",
+        "s"
+      ],
+      [
+        "be",
+        "wö"
+      ],
+      [
+        "kü",
+        "hl"
+      ],
+      [
+        "bewö",
+        "lkt"
+      ],
+      [
+        "T",
+        "asche"
+      ],
+      [
+        "W",
+        "ir"
+      ],
+      [
+        "h",
+        "andy"
+      ],
+      [
+        "i",
+        "er"
+      ],
+      [
+        "l",
+        "au"
+      ],
+      [
+        "u",
+        "er"
+      ],
+      [
+        "w",
+        "ar"
+      ],
+      [
+        "te",
+        "uer"
+      ],
+      [
+        "sch",
+        "lüssel"
+      ],
+      [
+        "schw",
+        "ier"
+      ],
+      [
+        "lau",
+        "t"
+      ],
+      [
+        "war",
+        "m"
+      ],
+      [
+        "schwier",
+        "ig"
+      ],
+      [
+        "A",
+        "u"
+      ],
+      [
+        "F",
+        "a"
+      ],
+      [
+        "g",
+        "ro"
+      ],
+      [
+        "j",
+        "acke"
+      ],
+      [
+        "r",
+        "ad"
+      ],
+      [
+        "s",
+        "on"
+      ],
+      [
+        "hr",
+        "rad"
+      ],
+      [
+        "ni",
+        "g"
+      ],
+      [
+        "Au",
+        "to"
+      ],
+      [
+        "Fa",
+        "hrrad"
+      ],
+      [
+        "gro",
+        "ß"
+      ],
+      [
+        "son",
+        "nig"
+      ],
+      [
+        "S",
+        "ie"
+      ],
+      [
+        "E",
+        "r"
+      ],
+      [
+        "f",
+        "lasche"
+      ],
+      [
+        "g",
+        "ner"
+      ],
+      [
+        "w",
+        "in"
+      ],
+      [
+        "di",
+        "g"
+      ],
+      [
+        "re",
+        "gner"
+      ],
+      [
+        "möchte",
+        "st"
+      ],
+      [
+        "an",
+        "n"
+      ],
+      [
+        "win",
+        "dig"
+      ],
+      [
+        "regner",
+        "isch"
+      ],
+      [
+        "K",
+        "ann"
+      ],
+      [
+        "W",
+        "ie"
+      ],
+      [
+        "W",
+        "ann"
+      ],
+      [
+        "a",
+        "st"
+      ],
+      [
+        "f",
+        "ä"
+      ],
+      [
+        "h",
+        "ast"
+      ],
+      [
+        "l",
+        "en"
+      ],
+      [
+        "l",
+        "che"
+      ],
+      [
+        "n",
+        "ä"
+      ],
+      [
+        "r",
+        "st"
+      ],
+      [
+        "s",
+        "te"
+      ],
+      [
+        "z",
+        "ah"
+      ],
+      [
+        "ch",
+        "t"
+      ],
+      [
+        "ch",
+        "ste"
+      ],
+      [
+        "ma",
+        "cht"
+      ],
+      [
+        "trin",
+        "ken"
+      ],
+      [
+        "ge",
+        "macht"
+      ],
+      [
+        "hr",
+        "t"
+      ],
+      [
+        "We",
+        "lche"
+      ],
+      [
+        "Kar",
+        "te"
+      ],
+      [
+        "hö",
+        "rst"
+      ],
+      [
+        "heiß",
+        "t"
+      ],
+      [
+        "be",
+        "zah"
+      ],
+      [
+        "fä",
+        "hrt"
+      ],
+      [
+        "nä",
+        "chste"
+      ],
+      [
+        "bezah",
+        "len"
+      ]
+    ]
+  }
+}
